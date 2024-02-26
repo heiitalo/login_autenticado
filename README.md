@@ -5,6 +5,5 @@
 <h2>🚀 Tecnologias: </h2>
 
  <div style="display: inline_block"><br>
-  <a href="https://jwt.io/">   <img align="center" alt="Ts" height="30" width="40" src="https://i.imgur.com/UIp79so.png">
-   &nbsp;&nbsp;</a> 
+  <a href="https://www.typescriptlang.org/">   <img align="center" alt="Ts" height="40" width="40" src="https://i.imgur.com/UIp79so.png">;</a> 
 </div>
