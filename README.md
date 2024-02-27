@@ -6,10 +6,10 @@
 
  <div style="display: inline_block"><br>
   <a href="https://www.typescriptlang.org/">   <img align="center" alt="Ts" height="70" width="70" src="https://i.imgur.com/UIp79so.png"></a> 
-  <a href="https://nodejs.org/en">   <img align="center" alt="node" height="70" width="70" src="https://i.imgur.com/TfBNw4l.png"></a> 
+  <a href="https://nodejs.org/en">   <img align="center" alt="node" height="70" width="70" src="https://i.imgur.com/sHP6CDY.png"></a> 
   <a href="https://nodemailer.com/">   <img align="center" alt="nodemailer" height="70" width="70" src="https://i.imgur.com/eBHNNIV.png"></a> 
   <a href="https://www.npmjs.com/package/multer">   <img align="center" alt="multer" height="70" width="70" src="https://i.imgur.com/eMBoOMe.png"></a> 
   <a href="https://jwt.io/">   <img align="center" alt="jwt" height="70" width="70" src="https://i.imgur.com/IhxFKjy.png"></a> 
   <a href="https://www.prisma.io/">   <img align="center" alt="prisma" height="70" width="70" src="https://i.imgur.com/fUjiKPd.png"></a> 
-  <a href="https://expressjs.com/pt-br/">   <img align="center" alt="express" height="70" width="70" src="https://i.imgur.com/Y3BpYkS.png"></a> 
+  <a href="https://expressjs.com/pt-br/">   <img align="center" alt="express" height="70" width="70" src="https://i.imgur.com/taK0j4r.png"></a> 
 </div>
