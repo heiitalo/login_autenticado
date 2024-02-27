@@ -5,7 +5,7 @@
 <h2>🚀 Tecnologias: </h2>
 
  <div style="display: inline_block"><br>
-  <a href="https://www.typescriptlang.org/" target="_blank">    <img align="center" alt="Ts" height="70" width="70" src="https://i.imgur.com/UIp79so.png"></a> 
+  <a href="https://www.typescriptlang.org/" target="_BLANK">    <img align="center" alt="Ts" height="70" width="70" src="https://i.imgur.com/UIp79so.png"></a> 
   <a href="https://nodejs.org/en" target="_blank">   <img align="center" alt="node" height="70" width="70" src="https://i.imgur.com/sHP6CDY.png"></a> 
   <a href="https://nodemailer.com/" target="_blank">   <img align="center" alt="nodemailer" height="70" width="70" src="https://i.imgur.com/eBHNNIV.png"></a> 
   <a href="https://www.npmjs.com/package/multer" target="_blank">   <img align="center" alt="multer" height="70" width="70" src="https://i.imgur.com/eMBoOMe.png"></a> 
