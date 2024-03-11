@@ -32,3 +32,4 @@ module.exports = (0, multer_1.default)({
         return cb(null, false);
     },
 });
+//# sourceMappingURL=uploadImage.js.map

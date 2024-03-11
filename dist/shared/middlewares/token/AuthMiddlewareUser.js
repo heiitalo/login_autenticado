@@ -45,3 +45,4 @@ function checkToken(req, res, next) {
     });
 }
 exports.checkToken = checkToken;
+//# sourceMappingURL=AuthMiddlewareUser.js.map

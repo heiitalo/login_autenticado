@@ -39,3 +39,4 @@ app.use(index_routes_1.router);
 app.listen(port, () => {
     console.log(`🎈🎈Example app listening at ${port}🎈🎈`);
 });
+//# sourceMappingURL=server.js.map

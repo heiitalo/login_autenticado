@@ -39,3 +39,4 @@ exports.CheckTokenInBackList = CheckTokenInBackList = __decorate([
     __param(0, (0, tsyringe_1.inject)("UserRepository")),
     __metadata("design:paramtypes", [Object])
 ], CheckTokenInBackList);
+//# sourceMappingURL=CheckTokenInBackList.js.map

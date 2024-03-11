@@ -22,3 +22,4 @@ userRoute.get("/getUsuarioById/:id", AuthMiddlewareUser_1.checkToken, (0, zod_ex
 userRoute.post("/envioEmailRecuperarSenha", userController.envioDeEmailtrocaDeSenha);
 userRoute.patch("/resetSenha/:resetToken", userController.resetSenha);
 userRoute.patch("/cadFotoUsuario/:id", upload.single("user"), userController.cadFotoUsuario);
+//# sourceMappingURL=User.routes.js.map
