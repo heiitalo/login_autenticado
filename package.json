@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/server.js",
+    "start": "node dist/shared/infra/http/server.js",
     "dev": "nodemon src/shared/infra/http/server.ts"
   },
   "license": "MIT",
