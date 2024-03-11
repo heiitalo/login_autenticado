@@ -2,14 +2,14 @@
     "version": 2,
     "builds": [
         {
-            "src": "./dist/server.js",
+            "src": "./dist/shared/infra/http/server.js",
             "use" : "@now/node"
         }
     ],
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "/dist/server.js"
+            "dest": "/dist/shared/infra/http/routes/index.routes.js"
         }
     ]
 }
