@@ -1,6 +1,6 @@
 <h1>Login Autenticado</h1>
 
-<p>Sistema de cadastro de usuário. Construído com o intuito de estudo e prática de boas práticas, esse pequeno projeto conta com sistema de autenticação via token, envio de email automático para redefinição de senha, upload de imagens e rotas protegidas.</p>
+<p>Sistema de cadastro de usuário. Construído com o intuito de estudo. Esse pequeno projeto conta com sistema de autenticação via token, envio de email automático para redefinição de senha, upload de imagens e rotas protegidas.</p>
 
 <h2>🚀 Tecnologias: </h2>
 
