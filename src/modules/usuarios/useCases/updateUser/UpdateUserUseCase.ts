@@ -50,7 +50,9 @@ class UpdateUserUseCase {
         throw new AppError("cpf já cadastrado", 402);
       }
     }
-
+    if (cpf && !/^\d+$/.test(cpf)) {
+      throw new AppError("cpf deve ser somento numeros", 400);
+    }
     await this.userRepository.update({
       id,
       nome,

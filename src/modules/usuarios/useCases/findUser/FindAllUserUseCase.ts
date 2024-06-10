@@ -1,6 +1,7 @@
 import { inject, injectable } from "tsyringe";
 import { IUserRepository } from "../../infra/repositories/IUserRepository";
 import { IFindAllUserDTO } from "../../infra/entities/IUserDTO";
+import AppError from "../../../../shared/errors/AppError";
 
 @injectable()
 class FindAllUserUseCase {
@@ -10,7 +11,12 @@ class FindAllUserUseCase {
   ) {}
 
   async execute(): Promise<IFindAllUserDTO[] | null> {
-    return await this.userRepository.findAll();
+    const usuarios = await this.userRepository.findAll();
+    if(usuarios) {
+      return usuarios
+    }else {
+      return null
+    }
   }
 }
 

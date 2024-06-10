@@ -17,7 +17,7 @@ class UserController {
   async register(req: Request, res: Response): Promise<Response> {
     const { nome, cpf, email, senha, confirmarSenha, dt_nascimento } = req.body;
     const imagem = req.file;
-    console.log(req);
+    //console.log(req);
 
     const cadUserUseCase = container.resolve(CadUserUseCase);
 
@@ -43,9 +43,6 @@ class UserController {
   async update(req: Request, res: Response): Promise<Response> {
     const { nome, cpf, email, dt_nascimento } = req.body;
     const id = res.locals.id;
-
-    // const authHeader = req.headers["authorization"];
-    // const token = authHeader?.split(" ")[1];
 
     const updateUsuario = container.resolve(UpdateUserUseCase);
 
@@ -183,7 +180,7 @@ class UserController {
     const resetSenha = container.resolve(ResetSenhaUseCase);
     try {
       await resetSenha.execute({ senha, confirmaSenha, resetToken });
-      return res.status(200).json({});
+      return res.status(200).json({message: "senha alterada!"});
     } catch (error) {
       console.log(error);
       return res.status(500).json(error);

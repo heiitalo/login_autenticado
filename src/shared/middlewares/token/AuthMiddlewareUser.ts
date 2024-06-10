@@ -4,7 +4,7 @@ import { container } from "tsyringe";
 import { CheckTokenInBackList } from "../../../modules/usuarios/useCases/loginUser/CheckTokenInBackList";
 
 type JwtPayload = {
-  id: number;
+  id: string;
 };
 
 async function checkToken(req: Request, res: Response, next: NextFunction) {
@@ -24,7 +24,7 @@ async function checkToken(req: Request, res: Response, next: NextFunction) {
   }
 
   try {
-    const { id } = jwt.verify(token, secret) as JwtPayload;
+    const id = jwt.verify(token, secret) as JwtPayload;
 
     function parseJwt(token: string) {
       return JSON.parse(Buffer.from(token.split(".")[1], "base64").toString());

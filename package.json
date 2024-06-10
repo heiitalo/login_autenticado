@@ -2,9 +2,6 @@
   "name": "escopo_basico",
   "version": "1.0.0",
   "main": "index.js",
-  "engines": {
-    "node": "18"
-  },
   "scripts": {
     "build": "tsc",
     "start": "node dist/shared/infra/http/server.js",
@@ -22,7 +19,6 @@
     "multer": "^1.4.5-lts.1",
     "nodemailer": "^6.9.9",
     "reflect-metadata": "^0.2.1",
-    "vercel": "^33.5.5",
     "zod": "^3.22.4",
     "zod-express-middleware": "^1.4.0"
   },
