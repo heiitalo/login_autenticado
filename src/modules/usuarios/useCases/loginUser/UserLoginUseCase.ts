@@ -21,8 +21,8 @@ class UserLoginUseCase {
       if (!verifySenha) {
         throw new AppError("senha inválida", 402);
       }
-
-      const token = jwt.sign({ id: user.id }, "italoTest325945", {
+      const key = process.env.SECRET_KEY;
+      const token = jwt.sign({ id: user.id }, key!, {
         expiresIn: "8h",
       });
       return token;

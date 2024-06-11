@@ -16,9 +16,10 @@ class EnvioDeEmailParaRedefinicaoDeSenhaUseCase {
     email,
   }: IEnvioDeEmailParaRedefinicaoDeSenhaDTO): Promise<void> {
     const usuario = await this.userRepository.findByEmail(email);
+    const key = process.env.SECRET_KEY
 
     if (usuario) {
-      const resetToken = jwt.sign({ id: usuario.id }, "italoTest325945", {
+      const resetToken = jwt.sign({ id: usuario.id }, key!, {
         expiresIn: "30m",
       });
       await this.userRepository.registerTokenForPasswordReset({
@@ -84,3 +85,7 @@ class EnvioDeEmailParaRedefinicaoDeSenhaUseCase {
 }
 
 export { EnvioDeEmailParaRedefinicaoDeSenhaUseCase };
+  function env(arg0: string) {
+    throw new Error("Function not implemented.");
+  }
+
